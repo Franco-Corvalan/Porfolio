@@ -21,10 +21,10 @@ function Footer() {
           <div className={styles.half}></div>
         </div>
         <motion.div className={styles.iconsCont} initial={{background: "linear-gradient(315deg, transparent 80%, transparent 20%)", color: "black", fontSize: "1.4rem"}} animate={scrollH === true ? "open" : "close"} variants={vHM5}>
-          <motion.a rel="noopener noreferrer" href="https://linkedin.com/in/waltersánchez26" target="_blank" initial={{color: "black"}} animate={scrollH === true ? {color: "white"} : {color: "black"}}>
+          <motion.a rel="noopener noreferrer" href="https://www.linkedin.com/in/franco-david-corvalan/" target="_blank" initial={{color: "black"}} animate={scrollH === true ? {color: "white"} : {color: "black"}}>
             <FontAwesomeIcon icon={faLinkedin} className={styles.icon}/>
           </motion.a>
-          <motion.a rel="noopener noreferrer" href="https://github.com/Z4nchez" target="_blank" initial={{color: "black"}} animate={scrollH === true ? {color: "white"} : {color: "black"}}>
+          <motion.a rel="noopener noreferrer" href="https://github.com/Franco-Corvalan" target="_blank" initial={{color: "black"}} animate={scrollH === true ? {color: "white"} : {color: "black"}}>
             <FontAwesomeIcon icon={faGithub} className={styles.icon}/>
           </motion.a>         
         </motion.div>
