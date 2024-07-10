@@ -1,0 +1,10 @@
+html, .App{ 
+  margin: 0;
+  padding: 0;  
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;  
+  scroll-snap-type: y mandatory;
+}

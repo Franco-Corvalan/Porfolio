@@ -1,0 +1,83 @@
+.SkillsProfile{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;  
+    font-size: 0.8rem;
+}
+.tituloSkills {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgba(0, 0, 0, 0.1);
+}
+.itemPanel{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    overflow-x: hidden;
+    gap: 50px;
+}
+.itemPanel::-webkit-scrollbar{
+    display: none;
+}
+.itemCont{
+    width: 60px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.itemCont img{
+    width: 100%;
+    height: 80%;
+}
+.tituloItem{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+}
+@media screen and ((max-width: 800px ) or (aspect-ratio < 12/10) ){
+    .SkillsProfile{
+        font-size: 0.6rem;
+    }
+    .tituloItem{
+        font-size: 0.6rem;
+    }
+    .itemCont{
+        width: 30px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .itemPanel{
+        height: 80%;
+    }
+}
+@media screen and (max-height: 500px ){
+    .SkillsProfile{
+        font-size: 0.5rem;
+    }
+    .tituloItem{
+        font-size: 0.5rem;
+    }
+    .itemCont{
+        width: 30px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .itemPanel{
+        height: 80%;
+    }
+}

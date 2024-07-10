@@ -1,0 +1,67 @@
+[
+    {
+        "Nombre": "Wind Garden",
+        "Desc1": "Blog de Huertas. Un sitio donde subo información y guias sobre como cultivar el suelo en climas áridos.",
+        "Desc2": "Sitio web Full Stack. Usé Next.js para desarrollar tanto el backend como el fronend en un mismo proyecto, Framer Motion para las animaciones y MongoDB como base de datos para las consultas.",
+        "Desc3": "HTML,CSS,JavaScript,React,Next.js,Node,MongoDB,FramerMotion,Vercel",
+        "img1": "wg01.webp",
+        "img2": "wg02.webp",
+        "img3": "wg03.webp",
+        "img4": "wg04.webp",
+        "img5": "wg05.webp",
+        "img6": "wg06.webp",
+        "link": "https://wind-garden-delta.vercel.app"
+    },
+    {
+        "Nombre": "MemoFun",
+        "Desc1": "Juego de memoria. Una vez registrado, el jugador puede iniciar una partida donde intentará voltear todas las fichas en el menor tiempo posible.",
+        "Desc2": "Aplicación MERN. Desarrollé una API con una base de datos donde se consulta la información de cada jugador (nombre, rango, puntaje mas alto y su ávatar). A medida que el jugador alcance mejores rangos podrá desbloquear avatares nuevos. Tomado los puntajes más altos obtenidos el juego establece un Ranking para los 4 mejores posicionados.",
+        "Desc3": "HTML,CSS,React,Node,MongoDB,ReactSpring,GitHub,Vercel",
+        "img1": "mf01.webp",
+        "img2": "mf02.webp",
+        "img3": "mf03.webp",
+        "img4": "mf04.webp",
+        "img5": "mf05.webp",
+        "img6": "mf06.webp",
+        "link": "https://z4nchez.github.io/MemoFun/"
+    },
+    {
+        "Nombre": "OnLeague",
+        "Desc1": "Aplicación para crear torneos. El usuario puede crear torneos de eliminación directa de hasta 64 participantes, así como compartir el bracket a los jugadores.",
+        "Desc2": "Aplicación MERN. Construí una API con una base de datos en MongoDB donde se consultan y actualiza la información de cada torneo, los resultados y los participantes. La aplicación cuenta con un sistema para crear plazas en blanco que completen los cruces cuando la cantidad de jugadores inscriptos no son divisores de 64.",
+        "Desc3": "HTML,CSS,React,Node,MongoDB,ReactSpring,GitHub,Vercel",
+        "img1": "ol01.webp",
+        "img2": "ol02.webp",
+        "img3": "ol03.webp",
+        "img4": "ol04.webp",
+        "img5": "ol05.webp",
+        "img6": "ol06.webp",
+        "link": "https://z4nchez.github.io/onleague/"
+    },
+    {
+        "Nombre": "WWeather",
+        "Desc1": "Aplicación de clima. El usuario puede ingresar el nombre de una ciudad y ver el clima actual y el pronóstico para los próximos 5 dias.",
+        "Desc2": "Web estática con feching de datos a una API de terceros.",
+        "Desc3": "HTML,CSS,React,ReactSpring,GitHub",
+        "img1": "ww01.webp",
+        "img2": "ww02.webp",
+        "img3": "ww03.webp",
+        "img4": "ww04.webp",
+        "img5": "ww05.webp",
+        "img6": "ww06.webp",
+        "link": "https://z4nchez.github.io/WWeather/"
+    },
+    {
+        "Nombre": "Comoda",
+        "Desc1": "Landing Page para un negocio de muebles. El sitio cuenta con una estructura básica de comercio en linea y la posibilidad de hacer búsqueda de productos y filtros en las búsquedas.",
+        "Desc2": "Web estática. En este sitio me enfoqué más añadir funcionalidades específicas, como búsquedas de productos y métodos de ordenamiento, perfil de compra y ubicación del cliente a través de servicio de mapas.",
+        "Desc3": "HTML,CSS,React,ReactSpring,GitHub",
+        "img1": "co01.webp",
+        "img2": "co02.webp",
+        "img3": "co03.webp",
+        "img4": "co04.webp",
+        "img5": "co05.webp",
+        "img6": "co06.webp",
+        "link": "https://z4nchez.github.io/Comoda/"
+    }
+]

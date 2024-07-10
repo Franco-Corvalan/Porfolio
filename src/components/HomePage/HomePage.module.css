@@ -1,0 +1,88 @@
+.HomePage{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: center;
+    position: relative;
+    overflow-x: hidden;
+}
+.HomeCont{
+    height: 90%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ImgCont{
+    height: 28%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+.space{
+    width: 100%;
+    height: 1px;
+}
+.ImgCont img{
+    height: 100%;
+    width: auto;
+    filter: drop-shadow(0 0 50px var(--colorDifuminado));
+}
+.NameCont{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+.NameCont h2{
+    font-size: 2.6rem;
+    text-align: center;
+}
+.DescCont{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+.DescCont p{
+    display: flex;
+    line-height: 1.6rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and ((max-width: 1200px ) or (aspect-ratio < 12/10) ){
+    .ImgCont img{
+        height: 90%;
+        width: auto;
+    }
+    .NameCont{
+        width: 80%;
+    }
+    .DescCont{
+        width: 60%;
+    }
+    .NameCont h2{
+        font-size: 1.6rem;
+    }
+    .DescCont p{
+        font-size: 0.8rem;
+    }
+}

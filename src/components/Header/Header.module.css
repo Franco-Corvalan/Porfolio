@@ -1,0 +1,145 @@
+
+.header {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    --altoH: 2;
+    min-height: 30px;
+}
+.hModule0{
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hModule1{
+    width: 620px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+    background: none;
+}
+.hModuleB{
+    width: calc(100% - 860px);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.half{
+    width: 100%;
+    height: 50%;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+}
+.logoCont {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoCont img{
+    filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+    height: auto;
+    width: 100%;
+}
+.hModule2{
+    width: 16px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;  
+}
+.menuIcon{
+    font-size: 1rem;
+    cursor: pointer;
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.61);
+    transition: transform 0.4s ease-in-out; 
+}
+.menuIcon:hover{
+    color: rgb(37, 36, 77);
+    transform:rotateX(180deg);
+}
+.menuCont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+.linkCont{
+    width: 19%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease-in-out;  
+    border-top: solid 1px rgba(0, 0, 0, 0.2);
+    border-right: solid 1px rgba(0, 0, 0, 0.2);
+}
+.link{   
+    cursor: pointer;
+    text-decoration: none;     
+    letter-spacing: 1px;
+}
+.linkCont:hover{
+    background-color: rgba(109, 108, 122, 0.5);
+}
+
+@media screen and (max-width: 1600px){
+    .link{
+        font-size: 0.6rem;
+    }
+    .hModule0{
+        width: 200px;
+    }
+    .hModule1{
+        width: 500px;
+    }
+    .hModuleB{
+        width: calc(100% - 700px);
+    }
+}
+@media screen and ((max-width: 800px ) or (aspect-ratio < 1) ){
+    .link{
+        font-size: 0.5rem;
+    }
+    .hModule0{
+        width: 160px;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hModuleB{
+        width: calc(100% - 260px);
+    }
+    .hModule1{
+        width: 100px;
+        justify-content: center;
+    }
+    .menuCont{
+        width: 1px;
+        visibility: hidden;
+    }
+    .hModule2{
+        visibility: visible;
+        width: 80px;  
+    }
+}
+@media screen and (max-height: 500px ){
+    .header {
+        --altoH: 1;
+    }
+}

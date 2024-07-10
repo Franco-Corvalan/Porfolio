@@ -1,0 +1,27 @@
+.InfoProfile{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    overflow-y: scroll;   
+}
+.InfoProfile p{
+    width: 100%;
+    height: 100%;
+    font-size: 0.8rem;
+    line-height: 30px;
+}
+.InfoProfile::-webkit-scrollbar{
+    display: none;
+}
+@media screen and ((max-width: 800px ) or (aspect-ratio < 12/10) ){
+    .InfoProfile p{
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-height: 500px ){
+    .InfoProfile p{
+        font-size: 0.5rem;
+    }
+}

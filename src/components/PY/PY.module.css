@@ -1,0 +1,325 @@
+.PY{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(170, 178, 196, 0.9);
+}
+.panel0Cont{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid rgba(170, 178, 196, 0.5);
+    font-size: 3rem;
+}
+.panel1Cont{
+    width: 80%;
+    height: 71%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.artCont1{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.artCont2{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.galeria1{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    border-radius: 0 40px 0 0;
+    border: 4px solid rgba(170, 178, 196, 0.5);
+    border-style: double;
+}
+.imgA1{
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0;
+}
+.imgA2{
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: -100%;
+}
+.imgA3{
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: -200%;   
+}
+.imgA4{
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: -300%;
+}
+.imgA5{
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: -400%;
+}
+.galeria2{
+    width: 100%;
+    height: 60%;
+    border: 4px solid rgba(170, 178, 196, 0.5);
+    border-style: double;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    border-radius: 0 0 0 40px;
+}
+.imgR1{
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0;
+}
+.imgR2{
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: -100%;
+}
+.imgR3{
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: -200%;
+}
+.imgR4{
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: -300%;
+}
+.imgR5{
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: -400%;
+}
+.art1{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 1rem;
+    overflow-y: scroll;
+}
+.art1::-webkit-scrollbar{
+    display: none;
+}
+.art2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    font-size: 1rem;
+    overflow-y: scroll;
+}
+.art2::-webkit-scrollbar{
+    display: none;
+}
+.panel2Cont{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(170, 178, 196, 0.5);
+}
+.techCont{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tech{
+    width: 10%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.iconT{
+    width: 15%;
+    height: auto;
+    background-color: rgba(170, 178, 196, 0.5);
+}
+.namT{
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+    text-align: center;
+}
+.linkCont{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    color: rgba(170, 178, 196, 0.9);
+    border-bottom: 1px solid rgba(0, 240, 180, 0);
+    transition: all 0.3s ease-in-out;
+}
+.link:hover{
+    color: rgba(0, 240, 180, 0.9);
+    border-bottom: 1px solid rgba(0, 240, 180, 0.9);
+}
+
+@media screen and (width < 1280px) {
+    .galeria1{
+        width: 100%;
+        height: 50%;
+    }
+    .galeria2{
+        width: 100%;
+        height: 40%;
+    }
+    .art1{
+        font-size: 0.5rem;
+    }
+    .art2{
+        font-size: 0.5rem;
+    }
+    .iconT{
+        width: 25%;
+    }
+}
+@media screen and (aspect-ratio < 1) {
+    .panel0Cont{
+        font-size: 1rem;
+    }
+    .panel1Cont{
+        flex-direction: column;
+    }
+    .galeria2{
+        width: 100%;
+        height: 0;
+        visibility: hidden;
+    }
+    .artCont1{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .artCont2{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .galeria1{
+        width: 100%;
+        height: 78%;
+        border-radius: 0;
+        flex-direction: column;
+    }
+    .art2{
+        height: 16%;
+        align-items: flex-start;
+    }
+    .imgA1{
+        position: relative;
+        width: auto;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    .imgA2{
+        position: relative;
+        width: auto;
+        height: 100%;
+        top: -100%;
+        left: 0;
+    }
+    .imgA3{
+        position: relative;
+        width: auto;
+        height: 100%;
+        top: -200%; 
+        left: 0;
+    }
+    .imgA4{
+        position: relative;
+        width: auto;
+        height: 100%;
+        top: -300%;
+        left: 0;
+    }
+    .imgA5{
+        position: relative;
+        width: auto;
+        height: 100%;
+        top: -400%;
+        left: 0;
+    }
+    .panel2Cont{
+        justify-content: space-evenly;
+    }
+    .tech{
+        width: 10%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .namT{
+        width: 0;
+        height: 0;
+        visibility: hidden;
+    }
+    .iconT{
+        width: 50%;
+    }
+    .link{
+        font-size: 0.5rem;
+    }
+}

@@ -1,0 +1,144 @@
+.About{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    z-index: 100;
+    scroll-snap-align: start;
+    --alto: 5;
+    --ancho: 1;
+    overflow-x: hidden;
+}
+
+.module1{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-right: solid 1px rgba(0, 0, 0, 0.1);
+}
+.profileCont{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.title{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.profileCont img{
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    border: solid 4px rgba(0, 0, 0, 0.1);
+}
+.module2{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.dataCont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.menu{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+.menuBoton{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.5s ease-out;
+    font-size: 0.8rem;
+}
+.menuBoton:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.infoCont{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1600px ){
+    .title{
+        font-size: 1rem;
+    }
+    .menuBoton{
+        font-size: 0.7rem;
+    }
+}
+@media screen and ((max-width: 1200px ) or (aspect-ratio < 12/10) ){
+    .About{
+        flex-direction: column;
+        --alto: 1;
+    }
+    .module1{
+        width: 80%; 
+        border-bottom: solid 1px rgba(0, 0, 0, 0.1);       
+    }
+    .profileCont{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .profileCont img{
+        width: auto;
+        height: 50%;
+    }
+    .module2{
+        width: 70%;
+        --ancho: 2;
+    }
+    .title{
+        width: 50%;
+    }
+    .menuBoton{
+        width: 33%;
+    }
+    .menuBoton{
+        font-size: 0.6rem;
+    }
+    .title{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-height: 500px ){
+    .menuBoton{
+        font-size: 0.5rem;
+    }
+    .title{
+        font-size: 0.5rem;
+    }
+}

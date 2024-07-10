@@ -1,0 +1,259 @@
+.Contacto{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    overflow-x: hidden;
+}
+.back{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formCont{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formCont form{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+.titulo{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.fieldCont{
+    width: 80%;
+    height: 15%;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 1rem;
+}
+.fieldCont label{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+.fieldCont input{
+    width: 100%;
+    border-radius: 10px;
+    height: 20%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    font-size: 0.7rem;
+    font-family: 'Michroma', sans-serif, -apple-system, BlinkMacSystemFont, "Audiowide";
+}
+.error{
+    width: auto;
+    height: auto;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 0.7rem;
+}
+.correcto{
+    width: auto;
+    height: auto;
+    color: rgb(26, 133, 101);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 0.7rem;
+}
+.areaCont{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+.areaCont textarea{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    font-size: 0.7rem;
+    font-family: 'Michroma', sans-serif, -apple-system, BlinkMacSystemFont, "Audiowide";
+    resize: none;
+}
+.areaCont label{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.7rem;
+}
+.botonCont{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.botonCont button{
+    width: 200px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-family: 'Michroma', sans-serif, -apple-system, BlinkMacSystemFont, "Audiowide";
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-out;
+}
+.botonCont button:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1600px ) {
+    .fieldCont label{
+        font-size: 0.6rem;
+    }
+    .fieldCont input{
+        font-size: 0.6rem;
+    }
+    .error{
+        font-size: 0.6rem;
+    }
+    .correcto{
+        font-size: 0.6rem;
+    }
+    .areaCont textarea{
+        font-size: 0.6rem;
+    }
+    .areaCont label{
+        font-size: 0.6rem;
+    }
+    .botonCont button{
+        font-size: 0.6rem;
+    }
+    .titulo{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 1200px ) {
+    .fieldCont label{
+        font-size: 0.6rem;
+    }
+    .fieldCont input{
+        font-size: 0.6rem;
+    }
+    .error{
+        font-size: 0.6rem;
+    }
+    .correcto{
+        font-size: 0.6rem;
+    }
+    .areaCont textarea{
+        font-size: 0.6rem;
+    }
+    .areaCont label{
+        font-size: 0.6rem;
+    }
+    .botonCont button{
+        font-size: 0.6rem;
+    }
+    .titulo{
+        font-size: 0.9rem;
+    }
+    .formCont{
+        width: 65%;
+    }
+}
+
+@media screen and ((max-width: 600px ) or (aspect-ratio < 12/10) ){
+    .formCont{
+        width: 70%;
+    }
+    .fieldCont label{
+        font-size: 0.5rem;
+    }
+    .fieldCont input{
+        font-size: 0.5rem;
+    }
+    .error{
+        font-size: 0.5rem;
+    }
+    .correcto{
+        font-size: 0.5rem;
+    }
+    .areaCont textarea{
+        font-size: 0.5rem;
+    }
+    .areaCont label{
+        font-size: 0.5rem;
+    }
+    .botonCont button{
+        font-size: 0.5rem;
+        width: 120px;
+    }
+    .titulo{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-height: 500px ){
+    .fieldCont label{
+        font-size: 0.5rem;
+    }
+    .fieldCont input{
+        font-size: 0.5rem;
+    }
+    .error{
+        font-size: 0.5rem;
+    }
+    .correcto{
+        font-size: 0.5rem;
+    }
+    .areaCont textarea{
+        font-size: 0.5rem;
+    }
+    .areaCont label{
+        font-size: 0.5rem;
+    }
+    .botonCont button{
+        font-size: 0.5rem;
+        height: 18px;
+    }
+    .titulo{
+        font-size: 0.7rem;
+    }
+}

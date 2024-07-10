@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Michroma', sans-serif, -apple-system, BlinkMacSystemFont, "Audiowide";  
+  letter-spacing: 1px;
+  width: 100%;
+  height: auto;
+}
+#root {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
