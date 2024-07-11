@@ -13,7 +13,7 @@ function HomePage() {
           
         <div className={styles.ImgCont} style={{scale: isInView ? "1" : "0.5", opacity: isInView ? 1 : 0, transition: "all 0.6s ease-out"}} >
           <div className={styles.space} ref={ref}></div>
-          <img src="avatar0.png" alt="avatar" />
+          <img src="avatar1.png" alt="avatar" />
         </div>
         <div className={styles.NameCont} style={{scale: isInView ? "1" : "0.5", opacity: isInView ? 1 : 0, transition: "all 0.6s ease-out"}} >
           <h2>Franco Corvalan</h2>

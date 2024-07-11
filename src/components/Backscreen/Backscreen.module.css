@@ -45,9 +45,9 @@
   position: fixed;
   -o-object-fit: cover;
      object-fit: cover;
-  background-color: rgba(134, 162, 204, 0.5);
+  /* background-color: rgba(134, 162, 204, 0.5);
   -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-          box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+          box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); */
   z-index: 2;
 }
 .lumin2 {
