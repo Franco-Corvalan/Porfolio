@@ -39,7 +39,7 @@ function Header() {
     <motion.div className={styles.header} animate={scrollH === true ? {height: "calc(15px * var(--altoH))"} : {height: "calc(60px * var(--altoH))"}} >
       <motion.div className={styles.hModule0} initial={{background: "linear-gradient(135deg, transparent 80%, transparent 20%)", height: "50%", color: "black"}} animate={scrollH === true ? "open" : "close"} variants={vHM0}>
         <motion.div className={styles.logoCont} initial={{width: "60%"}} animate={scrollH === true ? "open" : "closed"} variants={vC}>
-            <img src="logo.webp" alt='logo'/>
+            <img src="LOGO.png" alt='logo'/>
         </motion.div>
       </motion.div>
       <div className={styles.hModuleB}>
