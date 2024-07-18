@@ -1,10 +1,10 @@
 [
     {
-        "Nombre": "Wind Garden",
+        "Nombre": "Zucca",
         "Desc1": "Blog de Huertas. Un sitio donde subo información y guias sobre como cultivar el suelo en climas áridos.",
         "Desc2": "Sitio web Full Stack. Usé Next.js para desarrollar tanto el backend como el fronend en un mismo proyecto, Framer Motion para las animaciones y MongoDB como base de datos para las consultas.",
         "Desc3": "HTML,CSS,JavaScript,React,Next.js,Node,MongoDB,FramerMotion,Vercel",
-        "img1": "wg01.webp",
+        "img1": "Captura.PNG",
         "img2": "wg02.webp",
         "img3": "wg03.webp",
         "img4": "wg04.webp",
