@@ -91,8 +91,8 @@ function Contacto() {
                   {enviado === 1 && <div className={styles.correcto}>El mensaje fue enviado.</div>}
                   {enviado === 0 && <div className={styles.error}>Complete los campos correctámente.</div>}
                 </div>                
-                {/* <input type="hidden" name="_next" value="https://z4nchez.github.io/portfolio"></input>
-                <input type="hidden" name="_captcha" value="false"></input> */}
+                <input type="hidden" name="_next" value="https://porfolio-two-tau.vercel.app/"></input>
+                <input type="hidden" name="_captcha" value="false"></input>
               </form>
             </motion.div>
         </motion.div>
