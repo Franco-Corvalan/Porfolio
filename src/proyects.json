@@ -11,18 +11,18 @@
         "link": "https://zucca-smoky.vercel.app/"
     },
     {
-        "Nombre": "MemoFun",
-        "Desc1": "Juego de memoria. Una vez registrado, el jugador puede iniciar una partida donde intentará voltear todas las fichas en el menor tiempo posible.",
-        "Desc2": "Aplicación MERN. Desarrollé una API con una base de datos donde se consulta la información de cada jugador (nombre, rango, puntaje mas alto y su ávatar). A medida que el jugador alcance mejores rangos podrá desbloquear avatares nuevos. Tomado los puntajes más altos obtenidos el juego establece un Ranking para los 4 mejores posicionados.",
-        "Desc3": "HTML,CSS,React,Node,MongoDB,ReactSpring,GitHub,Vercel",
-        "img1": "mf01.webp",
-        "img2": "mf02.webp",
-        "img3": "mf03.webp",
-        "img4": "mf04.webp",
-        "link": "https://z4nchez.github.io/MemoFun/"
+        "Nombre": "Foods",
+        "Desc1": "Proyecto personal con temática de Comida Delivered en donde pongo en practica mis habilidades como Front End.",
+        "Desc2": "El diseño de la pagina fue echo principalmente con Tailwind",
+        "Desc3": "HTML,CSS,React,Node,GitHub,Vercel,Tailwind",
+        "img1": "Captura5.PNG",
+        "img2": "Captura6.PNG",
+        "img3": "Captura7.PNG",
+        "img4": "Captura8.PNG",
+        "link": "https://pi-foods-delta.vercel.app/"
     },
     {
-        "Nombre": "OnLeague",
+        "Nombre": "Dogs",
         "Desc1": "Aplicación para crear torneos. El usuario puede crear torneos de eliminación directa de hasta 64 participantes, así como compartir el bracket a los jugadores.",
         "Desc2": "Aplicación MERN. Construí una API con una base de datos en MongoDB donde se consultan y actualiza la información de cada torneo, los resultados y los participantes. La aplicación cuenta con un sistema para crear plazas en blanco que completen los cruces cuando la cantidad de jugadores inscriptos no son divisores de 64.",
         "Desc3": "HTML,CSS,React,Node,MongoDB,ReactSpring,GitHub,Vercel",
@@ -33,7 +33,7 @@
         "link": "https://z4nchez.github.io/onleague/"
     },
     {
-        "Nombre": "WWeather",
+        "Nombre": "Snake-Game",
         "Desc1": "Aplicación de clima. El usuario puede ingresar el nombre de una ciudad y ver el clima actual y el pronóstico para los próximos 5 dias.",
         "Desc2": "Web estática con feching de datos a una API de terceros.",
         "Desc3": "HTML,CSS,React,ReactSpring,GitHub",

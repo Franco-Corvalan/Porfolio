@@ -26,7 +26,7 @@ function Proyectos() {
                   <FontAwesomeIcon className={styles.control} icon={faCircleChevronLeft} style={nPY < 1 ? {visibility: "hidden"} : {visibility: "visible"}} onClick={() => setNPY(nPY - 1)}/>
                 </div>
                 <div className={styles.bMenu}>
-                  <FontAwesomeIcon className={styles.control} icon={faCircleChevronRight} style={nPY > 3 ? {visibility: "hidden"} : {visibility: "visible"}} onClick={() => setNPY(nPY + 1)}/>
+                  <FontAwesomeIcon className={styles.control} icon={faCircleChevronRight} style={nPY > 2 ? {visibility: "hidden"} : {visibility: "visible"}} onClick={() => setNPY(nPY + 1)}/>
                 </div>
               </div>
             </div>            
