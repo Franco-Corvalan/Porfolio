@@ -66,7 +66,7 @@ function Contacto() {
     <div className={styles.Contacto} id='icontacto' >
         <motion.div className={styles.back} animate={isInView ? {backgroundColor: "rgba(0, 0, 0, 0)"} : {backgroundColor: "rgba(0, 0, 0, 1)"}} transition={{delay: 0.5, duration: 0.5, ease: "easeOut"}}>
             <motion.div className={styles.formCont} ref={ref} animate={isInView ? {scale: 1, opacity: 1} : {scale: 0.8, opacity: 0}} transition={{delay: 1, duration: 0.5, ease: "easeOut"}}>
-              <form action="https://formsubmit.co/francorvalan52@gmail.com" method="POST" onSubmit={(e) => handleSubmit(e)}>
+              <form action="https://formsubmit.co/edbf23bce691cb77ccdbb5781b8a0184" method="POST" onSubmit={(e) => handleSubmit(e)}>
                 <div className={styles.titulo}>Contacto</div>
                 <div className={styles.fieldCont}>
                   <label htmlFor="nombre">Nombre</label>
@@ -91,7 +91,7 @@ function Contacto() {
                   {enviado === 1 && <div className={styles.correcto}>El mensaje fue enviado.</div>}
                   {enviado === 0 && <div className={styles.error}>Complete los campos correctámente.</div>}
                 </div>                
-                {/* <input type="hidden" name="_next" value="https://z4nchez.github.io/portfolio"></input>
+                {/* <input type="hidden" name="_next" value="https://porfolio-two-tau.vercel.app/"></input>
                 <input type="hidden" name="_captcha" value="false"></input> */}
               </form>
             </motion.div>
