@@ -34,8 +34,8 @@
     },
     {
         "Nombre": "Snake-Game",
-        "Desc1": "Un pequeño con del juego clasico de celulares , recread con React Native y Typescript",
-        "Desc2": "Web estática con feching de datos a una API de terceros.",
+        "Desc1": "Un pequeño clon del juego clasico de celulares",
+        "Desc2": "Use Adroid Studio para testear el juego.Recread con React Native y Typescript.",
         "Desc3": "HTML,CSS,React Native,TypeScript,GitHub",
         "img1": "Captura15.PNG",
         "img2": "Captura16.PNG",
