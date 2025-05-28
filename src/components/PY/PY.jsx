@@ -60,8 +60,9 @@ function PY({ data }) {
   }, [data]);
 
 
-
+   console.log("mostrar",data.MostrarMas)
   return (
+   
     <motion.div className={styles.PY} initial={"isOff"} animate={isInView === true ? "isOn" : "isOff"} transition={{ duration: 0.8, ease: "easeOut" }} variants={estilosDeCarga} >
       <div className={styles.panel0Cont}>{data.Nombre}</div>
       <div className={styles.panel1Cont}>
@@ -94,7 +95,7 @@ function PY({ data }) {
           </div>)}
         </div>
         <div className={styles.linkCont}>
-          <a href={data.link} className={styles.link} target="_blank" rel="noopener noreferrer">Ir al sitio</a>
+          {data.MostrarMas && (<a href={data.link} className={styles.link} target="_blank" rel="noopener noreferrer">Ir al sitio</a>)}
         </div>
       </div>
     </motion.div>

@@ -1,46 +1,50 @@
 [
-    {
-        "Nombre": "Zucca",
-        "Desc1": "Es una pagina de gestión de citas entre usuario y nutricionistas, los usuarios seleccionan un día y horario , y se les asigna un nutricionista afiliado a Zucca.",
-        "Desc2": "Sitio web Full Stack. Usé React para frontend , Node , JavaScript para el backend y PostgrestSQL como base de datos para las consultas.",
-        "Desc3": "GitHub,HTML,CSS,JavaScript,React,Node,Vercel,Tailwind,PostgreSQL",
-        "img1": "Captura2.PNG",
-        "img2": "Captura3.PNG",
-        "img3": "Captura.PNG",
-        "img4": "Captura4.PNG",
-        "link": "https://zucca-smoky.vercel.app/"
-    },
-    {
-        "Nombre": "Foods",
-        "Desc1": "Wed estatica.Proyecto personal con temática de Comida Delivered en donde pongo en practica mis habilidades como Front End.",
-        "Desc2": "El diseño de la pagina fue echo principalmente con Tailwind",
-        "Desc3": "HTML,CSS,React,Node,GitHub,Vercel,Tailwind",
-        "img1": "Captura5.PNG",
-        "img2": "Captura6.PNG",
-        "img3": "Captura7.PNG",
-        "img4": "Captura8.PNG",
-        "link": "https://pi-foods-delta.vercel.app/"
-    },
-    {
-        "Nombre": "Dogs",
-        "Desc1": "Pagina de adopcion de perros.Es una página diseñada para trabajar con una API externa de perros. Mostrando en forma de cartas la imagen y nombre de Raza entre otros datos.",
-        "Desc2": " Construí una API con una base de datos en PostgreSQL donde se consultan y actualiza la información. La aplicación cuenta con un sistema para agregar mas perros a la base de datos.",
-        "Desc3": "HTML,CSS,React,Node,GitHub,Vercel,PostgreSQL",
-        "img1": "Captura9.PNG",
-        "img2": "Captura11.PNG",
-        "img3": "Captura12.PNG",
-        "img4": "Captura10.PNG",
-        "link": "https://deploy-djs9.vercel.app/"
-    },
-    {
-        "Nombre": "Snake-Game",
-        "Desc1": "Un pequeño clon del juego clasico de celulares",
-        "Desc2": "Use Adroid Studio para testear el juego.Recread con React Native y Typescript.",
-        "Desc3": "HTML,CSS,React Native,TypeScript,GitHub",
-        "img1": "Captura15.PNG",
-        "img2": "Captura16.PNG",
-        "img3": "Captura13.PNG",
-        "img4": "Captura14.PNG",
-        "link": "https://github.com/Franco-Corvalan/Serpiente-app"
-    }
+  {
+    "Nombre": "Zucca",
+    "Desc1": "Es una pagina de gestión de citas entre usuario y nutricionistas, los usuarios seleccionan un día y horario , y se les asigna un nutricionista afiliado a Zucca.",
+    "Desc2": "Sitio web Full Stack. Usé React para frontend , Node , JavaScript para el backend y PostgrestSQL como base de datos para las consultas.",
+    "Desc3": "GitHub,HTML,CSS,JavaScript,React,Node,Vercel,Tailwind,PostgreSQL",
+    "img1": "Captura2.PNG",
+    "img2": "Captura3.PNG",
+    "img3": "Captura.PNG",
+    "img4": "Captura4.PNG",
+    "link": "https://zucca-smoky.vercel.app/",
+    "MostrarMas": true
+  },
+  {
+    "Nombre": "Foods",
+    "Desc1": "Wed estatica.Proyecto personal con temática de Comida Delivered en donde pongo en practica mis habilidades como Front End.",
+    "Desc2": "El diseño de la pagina fue echo principalmente con Tailwind",
+    "Desc3": "HTML,CSS,React,Node,GitHub,Vercel,Tailwind",
+    "img1": "Captura5.PNG",
+    "img2": "Captura6.PNG",
+    "img3": "Captura7.PNG",
+    "img4": "Captura8.PNG",
+    "link": "https://pi-foods-delta.vercel.app/",
+    "MostrarMas": true
+  },
+  {
+    "Nombre": "Dogs",
+    "Desc1": "Pagina de adopcion de perros.Es una página diseñada para trabajar con una API externa de perros. Mostrando en forma de cartas la imagen y nombre de Raza entre otros datos.",
+    "Desc2": " Construí una API con una base de datos en PostgreSQL donde se consultan y actualiza la información. La aplicación cuenta con un sistema para agregar mas perros a la base de datos.",
+    "Desc3": "HTML,CSS,React,Node,GitHub,Vercel,PostgreSQL",
+    "img1": "Captura9.PNG",
+    "img2": "Captura11.PNG",
+    "img3": "Captura12.PNG",
+    "img4": "Captura10.PNG",
+    "link": "https://deploy-djs9.vercel.app/",
+    "MostrarMas": false
+  },
+  {
+    "Nombre": "Snake-Game",
+    "Desc1": "Un pequeño clon del juego clasico de celulares",
+    "Desc2": "Use Adroid Studio para testear el juego.Recread con React Native y Typescript.",
+    "Desc3": "HTML,CSS,React Native,TypeScript,GitHub",
+    "img1": "Captura15.PNG",
+    "img2": "Captura16.PNG",
+    "img3": "Captura13.PNG",
+    "img4": "Captura14.PNG",
+    "link": "https://github.com/Franco-Corvalan/Serpiente-app",
+    "MostrarMas": false
+  }
 ]
